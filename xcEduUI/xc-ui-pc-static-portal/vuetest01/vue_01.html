@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>入门程序</title>
+    <script src="/js/vue/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <!--MVVM中view-->
+
+    {{name}}
+</div>
+</body>
+<script>
+    //新建一个vue实例(相当于MVVM模式中vm)
+    var VM = new Vue({
+        el:"#app",//将上边视图部分app区域进行管理,将model数据和view进行绑定
+        data:{//相当于MVVM中的model
+            name:"黑马程序员"
+
+        }
+
+    })
+
+</script>
+</html>

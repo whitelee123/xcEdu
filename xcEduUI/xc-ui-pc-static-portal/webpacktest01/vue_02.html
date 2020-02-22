@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>入门程序</title>
+
+</head>
+<body>
+<div id="app">
+    <!--MVVM中view-->
+    <!--{{name}}-->
+
+    <a v-bind:href="url">
+    <span v-text="name"></span>
+    </a>
+    <br/>
+    <input type="text" v-model="num1"/>+
+    <input type="text" v-model="num2"/>=
+    <input type="text" v-model="result"/>
+    <button v-on:click="change">计算</button>
+</div>
+</body>
+<script src="./build.js"></script>
+<script>
+
+
+</script>
+</html>
